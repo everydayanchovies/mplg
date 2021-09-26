@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+
+    <title>Riverspirit's MPLG</title>
+
+    <!--	<link rel='icon' type='image/png' href='/static/favicon.png'>-->
+    <link rel='stylesheet' href='/static/css/featherlight.min.css'>
+    <link rel='stylesheet' href='/static/build/css/main.css'>
+    <link rel='stylesheet' href='/static/build/css/mplg.css'>
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <div id="header" class="no-line">
+        <h1>Riverspirit's MPLG</h1>
+        <h3>Matplotlib GUI</h3>
+        <p>Design and extend hand-crafted plots, <br />
+            continue editing the Python code in your favourite IDE.</p>
+        <p>Integrates LaTeX specific formatting so your plots look native to the document.</p>
+        <p>Beta is free for students.</p>
+
+        <ul class="actions special download-buttons">
+            <li><a class="button windows-download-btn">Windows</a></li>
+            <li><a class="button linux-download-btn">Linux</a></li>
+            <li><a class="button mac-download-btn">Mac</a></li>
+        </ul>
+        <div class="download-buttons-windows">
+            <p style="max-width: 600px; margin: auto;">Please note! For now MPLG does not ship with a Windows
+                certificate,
+                so Windows thinks it to be suspicious. You can safely ignore the SmartScreen warning.
+            </p>
+            <ul class="actions special download-buttons">
+                <li><a href="/mplg/release/download/beta/windows/MPLG.exe" target="blank" class="button">Download for
+                        Windows</a>
+                </li>
+            </ul>
+        </div>
+        <div class="download-buttons-mac">
+            <p style="max-width: 600px; margin: auto;">Please note! For now MPLG does not ship with a Mac OS X
+                certificate,
+                please execute the
+                following command in your terminal to allow OS X to open MPLG:</p>
+            <pre>xattr -rc /Applications/MPLG.app</pre>
+            <ul class="actions special download-buttons">
+                <li><a href="/mplg/release/download/beta/mac/intel/MPLG.dmg" target="blank" class="button">Download for
+                        Mac</a></li>
+                <!-- <li><a href="/mplg/release/download/beta/mac/arm64/latest" target="blank" class="button">Mac M1</a></li> -->
+            </ul>
+        </div>
+        <div class="download-buttons-linux">
+            <p style="max-width: 600px; margin: auto;">Please note! To run MPLG you must first make it executable:
+            </p>
+            <pre>chmod +x MPLG.AppImage</pre>
+            <ul class="actions special download-buttons">
+                <li><a href="/mplg/release/download/beta/linux/MPLG-x86_64.AppImage" target="blank" class="button">Linux
+                        x86
+                        (64
+                        bit)</a>
+                </li>
+                <li><a href="/mplg/release/download/beta/linux/MPLG-arm64.AppImage" target="blank" class="button">Linux
+                        arm
+                        (64
+                        bit)</a>
+                </li>
+                <li><a href="/mplg/release/download/beta/linux/MPLG-armv7l.AppImage" target="blank" class="button">Linux
+                        armv7l</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+
+        <div class="box alt container">
+            <section class="feature left">
+                <a href="/static/images/mplg/mplg-matplotlib-gui-screenshot-1-overview.png" data-featherlight="image"
+                    class="image icon solid no-hover-effect">
+                    <img src="/static/images/mplg/mplg-matplotlib-gui-screenshot-1-overview-small.png" alt="" />
+                </a>
+                <div class="content">
+                    <h3>Design visually, process data with Python</h3>
+                    <p>Do your data processing in Python, design your plots with MPLG. Extend hand-crafted plots, and
+                        when you're done, integrate the Python code into your existing codebase.</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="box alt container">
+            <section class="feature right">
+                <a href="/static/images/mplg/mplg-matplotlib-gui-screenshot-2-python-code.png" data-featherlight="image"
+                    class="image icon solid no-hover-effect">
+                    <img src="/static/images/mplg/mplg-matplotlib-gui-screenshot-2-python-code-small.png" alt="" />
+                </a>
+                <div class="content">
+                    <h3>Export high quality, reusable Python code</h3>
+                    <p>Your changes in the visual editor are translated into quality Python code, so that when you
+                        need to extend your plots, you can do so without friction.</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="box alt container">
+            <section class="feature left">
+                <a href="/static/images/mplg/mplg-matplotlib-gui-screenshot-3-latex.png" data-featherlight="image"
+                    class="image icon solid no-hover-effect">
+                    <img src="/static/images/mplg/mplg-matplotlib-gui-screenshot-3-latex-small.png" alt="" />
+                </a>
+                <div class="content">
+                    <h3>Use LaTeX</h3>
+                    <p>Write expressions in LaTeX everywhere. When exporting a plot, the fonts and other visual elements
+                        are adjusted to match those of a LaTeX document.</p>
+                    <p>A code snippet to include the plot in your document is available at all times.</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="box alt container">
+            <section class="feature right">
+                <a href="/static/images/mplg/mplg-matplotlib-gui-screenshot-4-annotations.png" data-featherlight="image"
+                    class="image icon solid no-hover-effect">
+                    <img src="/static/images/mplg/mplg-matplotlib-gui-screenshot-4-annotations-small.png" alt="" />
+                </a>
+                <div class="content">
+                    <h3>Place text and annotations</h3>
+                    <p>With MPLG you can place text as if you were editing the plot in Photoshop, and of course
+                        edit the python code afterwards.</p>
+                    <p>No more fiddling with the indecipherable Matplotlib API, common properties like
+                        backgrounds, colours, shapes and arrows are all supported.</p>
+                </div>
+            </section>
+        </div>
+
+        <footer class="major container medium">
+            <h3>Download the beta for free</h3>
+            <p>The beta is free for students, all releases will feature a thirty day free trial.</br>
+                After the beta testing is finished, non-students will be able to purchase a license.</p>
+
+            <ul class="actions special download-buttons">
+                <li><a class="button windows-download-btn">Windows</a></li>
+                <li><a class="button linux-download-btn">Linux</a></li>
+                <li><a class="button mac-download-btn">Mac</a></li>
+            </ul>
+            <div class="download-buttons-windows">
+                <p style="max-width: 600px; margin: auto;">Please note! For now MPLG does not ship with a Windows
+                    certificate,
+                    so Windows thinks it to be suspicious. You can safely ignore the SmartScreen warning.
+                </p>
+                <ul class="actions special download-buttons">
+                    <li><a href="/mplg/release/download/beta/windows/MPLG.exe" target="blank" class="button">Download
+                            for Windows</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="download-buttons-mac">
+                <p style="max-width: 600px; margin: auto;">Please note! For now MPLG does not ship with a Mac OS X
+                    certificate,
+                    please execute the
+                    following command in your terminal to allow OS X to open MPLG:</p>
+                <pre>xattr -rc /Applications/MPLG.app</pre>
+                <ul class="actions special download-buttons">
+                    <li><a href="/mplg/release/download/beta/mac/intel/MPLG.dmg" target="blank" class="button">Download
+                            for
+                            Mac</a></li>
+                    <!-- <li><a href="/mplg/release/download/beta/mac/arm64/latest" target="blank" class="button">Mac M1</a></li> -->
+                </ul>
+            </div>
+            <div class="download-buttons-linux">
+                <p style="max-width: 600px; margin: auto;">Please note! To run MPLG you must first make it executable:
+                </p>
+                <pre>chmod +x MPLG.AppImage</pre>
+                <ul class="actions special download-buttons">
+                    <li><a href="/mplg/release/download/beta/linux/MPLG-x86_64.AppImage" target="blank"
+                            class="button">Linux x86
+                            (64
+                            bit)</a>
+                    </li>
+                    <li><a href="/mplg/release/download/beta/linux/MPLG-arm64.AppImage" target="blank"
+                            class="button">Linux arm
+                            (64
+                            bit)</a>
+                    </li>
+                    <li><a href="/mplg/release/download/beta/linux/MPLG-armv7l.AppImage" target="blank"
+                            class="button">Linux
+                            armv7l</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container medium">
+
+            <!--        <ul class="icons">-->
+            <!--            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
+            <!--        </ul>-->
+
+            <ul class="copyright">
+                <li>&copy; Max Marshall. 2021. All rights reserved.</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/browser.min.js"></script>
+    <script src="/static/js/breakpoints.min.js"></script>
+    <script src="/static/js/util.js"></script>
+    <script src="/static/js/featherlight.min.js"></script>
+    <script defer src="/static/js/main.js"></script>
+    <script defer src="/static/js/mplg/main.js"></script>
+
+</body>
+
+</html>
