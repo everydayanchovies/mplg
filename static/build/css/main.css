@@ -1339,7 +1339,7 @@ textarea {
     -webkit-transition: opacity 0.25s ease-in-out;
     -ms-transition: opacity 0.25s ease-in-out;
     transition: opacity 0.25s ease-in-out;
-    background-image: url("images/overlay.png");
+    background-image: url("/mplg/static/images/overlay.png");
     content: "";
     display: block;
     height: 100%;
@@ -1720,7 +1720,7 @@ input[type="button"],
 /* Header */
 #header {
   background-attachment: scroll, scroll, fixed;
-  background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("/mplg/images/header.jpg");
+  background-image: url("/mplg/static/images/top-3200.svg"), url("/mplg/static/images/overlay.png"), url("/mplg/images/header.jpg");
   background-position: bottom center, top left, center center;
   background-repeat: repeat-x, repeat, no-repeat;
   background-size: 3200px 460px, auto, cover;
@@ -1797,7 +1797,7 @@ input[type="button"],
 #footer {
   background-attachment: scroll;
   background-color: #547980;
-  background-image: url("images/bottom-3200.svg");
+  background-image: url("/mplg/static/images/bottom-3200.svg");
   background-position: top center;
   background-repeat: repeat-x;
   background-size: 3200px 460px;
@@ -1963,7 +1963,7 @@ input[type="button"],
   /* Header */
   #header {
     background-attachment: scroll, scroll, scroll;
-    background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("/mplg/images/header.jpg");
+    background-image: url("/mplg/static/images/top-1600.svg"), url("/mplg/static/images/overlay.png"), url("/mplg/images/header.jpg");
     background-size: 1600px 230px, auto, cover;
     padding: 6em 0 12em 0; }
     #header:before {
@@ -1977,7 +1977,7 @@ input[type="button"],
 
   /* Footer */
   #footer {
-    background-image: url("images/bottom-1600.svg");
+    background-image: url("/mplg/static/images/bottom-1600.svg");
     background-size: 1600px 230px;
     margin-top: -100px;
     padding: calc(230px + 4em) 0 6em 0; }
@@ -2056,7 +2056,7 @@ input[type="button"],
 
   /* Header */
   #header {
-    background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("/mplg/images/header.jpg");
+    background-image: url("/mplg/static/images/top-1280.svg"), url("/mplg/static/images/overlay.png"), url("/mplg/images/header.jpg");
     background-size: 1280px 184px, auto, cover;
     padding: 3em 0 7em 0; }
     #header:before {
@@ -2072,7 +2072,7 @@ input[type="button"],
 
   /* Footer */
   #footer {
-    background-image: url("images/bottom-1280.svg");
+    background-image: url("/mplg/static/images/bottom-1280.svg");
     background-size: 1280px 184px;
     margin-top: -75px;
     padding: calc(184px + 2em) 0 2em 0; }
